@@ -1,2 +1,104 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+<html>
+    <head>
+        <title>Admission_From</title>
+        <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <form action="" style="margin: 30px;">
+            <div style="display:flex; justify-content: start; ">
+                    <h6>Date</h6>
+                    <h6 style="margin-left: 40rem;">Sign In Form</h6>
+            </div>
+            
+            <h1 style="text-align: left; margin-bottom: 20px;">J.K.M.B Mallick High School</h1>
+            <h2 style="text-align: left;">Admission Form</h2>
+            <hr>
+            <h1 style="text-align: left; margin-bottom: 20px;">Personal Information</h1>
+             <table>
+                 <tr>
+                    <td><label for="name">NAME:</label></td>
+                    <td><input type="text" id="name" name="name" placeholder="Full Name"></td>
+                 </tr>
+                 <tr>
+                    <td><label for="name">FATHER'S NAME:</label></td>
+                    <td><input type="text" id="name" name="name" placeholder="Father's Name"></td>
+                 </tr>
+                 <tr>
+                    <td><label for="name">CNIC:</label></td>
+                    <td><input type="text" id="name" name="name" placeholder="CNIC"></td>
+                 </tr>
+                 <tr>
+                    <td><label for="name">FAVORITE COLOR:</label></td>
+                    <td><input type="color" id="name" name="name" value="#FFFFFF"></td>
+                 </tr>
+                 <tr>
+                    <td><label for="name">D-O-B:</label></td>
+                    <td><input type="date" id="name" name="name" placeholder="dd/mm/yyyy"></td>
+                 </tr>
+                 <tr>
+                    <td><label for="name">EMAIL:</label></td>
+                    <td><input type="email" id="name" name="name" placeholder="abc@xyz.com"></td>
+                 </tr>
+             </table>
+             <hr>
+             <h1 style="text-align: left; margin-bottom: 20px;">Residential Information</h1>
+             <table>
+                 <tr>
+                    <td><label for="name">CITY NAME:</label></td>
+                    <td><input type="email" id="name" name="name" placeholder="City Name"></td>
+                 </tr>
+                 <tr>
+                    <td><label for="province">PROVINCE:</label></td>
+                    <td><select name="province" id="">
+                        <option value="" selected>punjab</option>
+                        <option value="">sindh</option>
+                        <option value="">KPK</option>
+                    </select></td>
+                 </tr>
+                 <tr><td><label for="province">COUNTRY:</label><br></td></tr>
+                 <tr>
+                    <td><select name="province" id="">
+                        <option value="" selected>PAK</option>
+                        <option value="">AFG</option>
+                        <option value="">IND</option>
+                        <option value="">BANG</option>
+                    </select></td>
+                 </tr>
+                 <tr><td><label for="province">GENDER:</label><br></td></tr>
+               
+             </table>
+           
+                   <input type="radio" name="gender" id="gen">MALE
+                   <input type="radio" name="gender" id="gen">FEMALE
+                   <input type="radio" name="gender" id="gen">OTHER
+      
+             <hr>
+             <h1 style="text-align: left; margin-bottom: 20px;">Academic Information</h1>
+             <table>
+                <tr><label for="">QUALIFICATION:</label><br></tr>
+                <tr>
+                    <td><input type="checkbox" name="">Matric Completed</td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" name="">Inter Completed</td>
+                </tr>
+                <tr>
+                    <td><label for="name">CLASS:</label></td>
+                    <td><input type="text" id="name" name="name" placeholder="Grade"></td>
+                 </tr>
+                 <tr>
+                    <td><label for="name">Name of Old School:</label></td>
+                    <td><input type="text" id="name" name="name" placeholder="ABC High School"></td>
+                 </tr>
+             </table>
+             <hr>
+             <button type="submit">SUBMIT</button>
+             <br>
+             <br>
+             <button type="reset">RESET</button>
+        </form>
+                    
+
+    </body>
+</html>
